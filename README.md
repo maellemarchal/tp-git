@@ -30,7 +30,7 @@ Le fichier `.gitignore` sert à indiquer à Git les fichiers qu'il doit ignorer 
 - L'utiliser (`Shift+CMD+P` Generate .gitignore File).
   - Faire un fichier `.gitignore` en sélectionnant :
     - [X] windows
-    - [X] macos
+    - [] macos
     - [X] visualstudiocode
   - Si extension ne fonctionne pas :
     - Faire vous-même un nouveau fichier `.gitignore` à la racine.
@@ -45,7 +45,7 @@ Le fichier `.gitignore` sert à indiquer à Git les fichiers qu'il doit ignorer 
 - Faire un fichier `/public/video/a-ignorer.txt`
 - Ajouter en fin de fichier `.gitignore` la ligne suivante :
   - `/public/video`
-- [ ] cocher et commit "ajout dossier à .gitignore"
+- [X] cocher et commit "ajout dossier à .gitignore"
 - Synchroniser les commit avec Github
   - constater que le fichier `/public/video/a-ignorer.txt` n'a pas été publié sur Github
 
